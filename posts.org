@@ -1,0 +1,34 @@
+#+HUGO_BASE_DIR: ~/repos/hugo-blog/
+
+* New blog ! :hugo:
+:PROPERTIES:
+:EXPORT_FILE_NAME: first-blog
+:EXPORT_DATE: 2021-10-18
+:EXPORT_DESCRIPTION: a completly useless blog post, basically trying out hugo.
+:EXPORT_AUTHOR:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:END:
+Hello once again to my redesigned blog, this time using [[https://gohugo.io][hugo]] as the backend with [[https://ox-hugo.scripter.co/][ox-hugo]] which converts my org-written blog posts to markdown.
+
+through out this post, I will be testing ox-hugo's features and see what is possible !
+** Heading 1
+this is fun, hugo supports rich text, so I can have, *bold* and /italic/ text and even ~inline code blocks~
+*** heading 2
+I don't think I'll ever go beyond heading 2, this is a *very* useful bit of javascript code
+#+begin_src js
+console.log("hello world")
+for(let i = 0; i > 10; i++){
+    console.log(i)
+}
+#+end_src
+
+#+begin_quote
+I don't like how quote blocks look, but that is fine tbh.
+#+end_quote
+I can have lists:
++ Milk
++ House
++ Door
+and even ordered ones:
+1. what's up
+2. I like this very much
