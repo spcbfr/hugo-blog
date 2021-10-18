@@ -40,6 +40,7 @@ paginate = 5
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
+    rssFullText = true
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
@@ -56,3 +57,7 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "rss"
+        name = "rss"
+        url = "/index.xml"
