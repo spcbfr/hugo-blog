@@ -3,7 +3,7 @@ title = "Distro Review"
 description = "in this blog post, I review every distro I've tried so far"
 date = 2021-10-18
 tags = ["linux"]
-draft = true
+draft = false
 author = "Youssef Bouzekri"
 +++
 
