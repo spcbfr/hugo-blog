@@ -33,7 +33,7 @@ and even ordered ones:
 1. what's up
 2. I like this very much
 
-* TODO Distro Review :linux:
+* Distro Review :linux:
 :PROPERTIES:
 :EXPORT_FILE_NAME: distro-review
 :EXPORT_DATE: 2021-10-18
