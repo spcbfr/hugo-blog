@@ -1,5 +1,5 @@
 +++
-title = "Blogging setup with org-mode and hugo !"
+title = "How to make a blog with hugo and org-mode"
 description = "A tutorial on how to start your own blog using hugo and org mode"
 date = 2021-10-20
 tags = ["hugo", "orgmode", "tutorial"]

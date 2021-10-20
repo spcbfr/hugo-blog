@@ -70,7 +70,7 @@ that said ubuntu is still great for the new distro and is generally much better 
 there are many distros I want to take a look at in the near future, the main two are =NixOS= and =Bedrock Linux= !
 
 and that is pretty much it, thanks for reading !
-* Blogging setup with org-mode and hugo ! :hugo:orgmode:tutorial:
+* How to make a blog with hugo and org-mode :hugo:orgmode:tutorial:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blogging-setup-hugo-and-org
 :EXPORT_DESCRIPTION: A tutorial on how to start your own blog using hugo and org mode
