@@ -171,3 +171,4 @@ on doom emacs, you can also use the keybinding ~SPC m e H H~ to do the same thin
 now if you open ~localhost:1313~ (make sure the hugo server is still running) you will see your newly created blog post show up !
 
 And that's about it, I hope you've found this helpful, if you made you blog using this guide, tweet me over at [[https://twitter.com/YoussefOnLinux][@YoussefOnLinux]] and I'll make sure to check it out !
+* TODO Why the command-line is (almost) always better than a GUI
