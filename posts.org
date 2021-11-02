@@ -76,7 +76,7 @@ and that is pretty much it, thanks for reading !
 :EXPORT_DESCRIPTION: A tutorial on how to start your own blog using hugo and org mode
 :EXPORT_DATE: 2021-10-20
 :EXPORT_AUTHOR:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri" :toc true
 :END:
 Yesterday, I've rewritten my blog using [[https://gohugo.io/][Hugo]] , but with a spin; instead of using the usual ~markdown -> hugo -> html~, I've went with ox-hugo which adds another layer to this process so it becomes ~org -> markdow -> hugo -> html~ and I've done this for a few reasons
 - I am already using org-mode for my private notes, if I ever decide to make a note public that would be very easy with both my private and public notes using the same syntax
@@ -170,5 +170,35 @@ finally to export the file to markdown you can run the ~org-hugo-export-wim-to-m
 on doom emacs, you can also use the keybinding ~SPC m e H H~ to do the same thing
 now if you open ~localhost:1313~ (make sure the hugo server is still running) you will see your newly created blog post show up !
 
-And that's about it, I hope you've found this helpful, if you made you blog using this guide, tweet me over at [[https://twitter.com/YoussefOnLinux][@YoussefOnLinux]] and I'll make sure to check it out !
-* TODO Why the command-line is (almost) always better than a GUI
+And that's about it, I hope you've found this helpful, if you made you blog using this guide, tweet me over at [[https://twitter.com/spcbfr][@spcbfr]] and I'll make sure to check it out !
+* TODO A noob's guide into the orgmode syntax :orgmode:
+:PROPERTIES:
+:EXPORT_FILE_NAME: orgmode-syntax
+:EXPORT_DESCRIPTION: Getting started with org-mode
+:EXPORT_DATE: 2021-11-01
+:EXPORT_AUTHOR:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:END:
+So you've been hearing a lot about emacs's killer feature, orgmode and how powerful and customizable it is, so you decided to give it a try. you download doom emacs but then get stuck because you are unsure of how to start. In this guide I'll demonstrate how to use orgmode and how to get the most out of it.
+** Headings
+Unlike markdown where you would use the pound sing # to set headings, in orgmode we use the asktrisk sign followed by a space, this would only work if you have the asktrisk at the start of the line, as per other markup languages 1 astrisk means a heading 1, 2 astrisks means a heading 2,etc..
+here is how headings look in action
+
+{{< figure src="/img/org-headings.png" alt="Headings Example" position="center" style="border-radius: 8px;" caption="Figure 1: How headings look in action" >}}
+
+as you can see, headings are automatically indented, and astrisks are replaced with unicode characters using the [[https://github.com/integral-dw/org-superstar-mode][Org Superstar package]].
+You can change the current heading hierarchy by pressing ~M-leftarrow~ or ~M-rightarrow~ when you are directly above a heading. you can also move headings along with their content across the document using ~M-uparrow~ or ~M-downarrow~. pressing ~C-enter~ when directly above a heading will create another heading of the same hierarchy.
+** Emphasis
+| Feature       | orgmode                                                                     | markdown                                                                     |
+|---------------+-----------------------------------------------------------------------------+------------------------------------------------------------------------------|
+| Bold          | ~*text*~                                                                    | ~**text**~                                                                   |
+| Italic        | ~/text/~                                                                    | ~*text*~                                                                     |
+| Inline Code   | ~~code~~                                                                    | ~`code`~                                                                     |
+| Highlight     | ~=text=~ (usually rendered in green)                                        | This feature does not exist in markdown unless you use the html tag ~<mark>~ |
+| Underline     | ~_text_~                                                                    | This is also not supported in markdown unless using the html ~<ins>~ tag     |
+| Strikethrough | ~+deleted text+~                                                            | ~~~deleted text~~~                                                           |
+| Quote         | ~#+begin_quote your quote #+end_quote~ you can also just type ~quote <TAB>~ | > your quote                                                                 |
+| Hyperlinks    | ~[[Link][Description]]~                                                     | ~[Description][Link]~                                                        |
+#+begin_quote
+*TIP*: you can add ~(setq org-hide-emphasis-markers t)~ to your configuration, to hide markup elements in orgmode files
+#+end_quote

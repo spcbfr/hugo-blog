@@ -5,6 +5,7 @@ date = 2021-10-20
 tags = ["hugo", "orgmode", "tutorial"]
 draft = false
 author = "Youssef Bouzekri"
+toc = true
 +++
 
 Yesterday, I've rewritten my blog using [Hugo](https://gohugo.io/) , but with a spin; instead of using the usual `markdown -> hugo -> html`, I've went with ox-hugo which adds another layer to this process so it becomes `org -> markdow -> hugo -> html` and I've done this for a few reasons
@@ -137,4 +138,4 @@ finally to export the file to markdown you can run the `org-hugo-export-wim-to-m
 on doom emacs, you can also use the keybinding `SPC m e H H` to do the same thing
 now if you open `localhost:1313` (make sure the hugo server is still running) you will see your newly created blog post show up !
 
-And that's about it, I hope you've found this helpful, if you made you blog using this guide, tweet me over at [@YoussefOnLinux](https://twitter.com/YoussefOnLinux) and I'll make sure to check it out !
+And that's about it, I hope you've found this helpful, if you made you blog using this guide, tweet me over at [@spcbfr](https://twitter.com/spcbfr) and I'll make sure to check it out !
