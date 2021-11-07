@@ -3,7 +3,7 @@ title = "A noob's guide into the orgmode syntax"
 description = "Getting started with org-mode"
 date = 2021-11-01
 tags = ["orgmode"]
-draft = true
+draft = false
 author = "Youssef Bouzekri"
 +++
 
