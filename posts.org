@@ -207,7 +207,7 @@ You can change the current heading hierarchy by pressing ~M-leftarrow~ or ~M-rig
 :PROPERTIES:
 :EXPORT_FILE_NAME: music-term-setup
 :EXPORT_DESCRIPTION: The proper way to listen to music
-:EXPORT_DATE: 2021-11-12
+:EXPORT_DATE: 2021-11-24
 :EXPORT_AUTHOR:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
 :END:
