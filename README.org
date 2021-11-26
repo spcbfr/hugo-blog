@@ -1,6 +1,0 @@
-
-* spcbfr's blog
-The source code for my technical blog, for this blog I am using hugo as the backend, and ox-hugo to export my org mode files to markdown which is then read by hugo. I am also using the [[https://github.com/panr/hugo-theme-hello-friend/][hello-friend theme]] by panr.
-You can read through the blog from [[https:spcbfr.vercel.app][here]]
-* screenshots
-[[./static/img/blog.png]]
