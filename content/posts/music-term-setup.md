@@ -11,7 +11,7 @@ author = "Youssef Bouzekri"
 
 despite having some of the worst names ever, ncmpcpp, mpc and mpd make the best music setup on linux in my opinion, let's go through their pros and cons first
 
-****Pros****
+**Pros**
 
 -   terminal based
 -   free and open source
@@ -19,7 +19,7 @@ despite having some of the worst names ever, ncmpcpp, mpc and mpd make the best 
 -   absolutely no ads
 -   built-in Lyrics fetcher
 
-****Cons****
+**Cons**
 
 -   Offline, meaning you will have to download everything you want to listen to
 -   Can be a hastle to configure when you are getting started
