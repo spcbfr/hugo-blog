@@ -177,7 +177,7 @@ And that's about it, I hope you've found this helpful, if you made you blog usin
 :EXPORT_DESCRIPTION: Getting started with org-mode
 :EXPORT_DATE: 2021-11-01
 :EXPORT_AUTHOR:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri" :cover "/img/orgmode-syntax-basics.png"
 :END:
 So you've been hearing a lot about emacs's killer feature, orgmode and how powerful and customizable it is, so you decided to give it a try. you download doom emacs but then get stuck because you are unsure of how to start. In this guide I'll demonstrate how to use orgmode and how to get the most out of it.
 ** Headings

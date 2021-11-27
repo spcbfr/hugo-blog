@@ -1,7 +1,7 @@
 +++
 title = "My terminal-based music setup"
 description = "The proper way to listen to music"
-date = 2021-11-12
+date = 2021-11-24
 tags = ["music", "commandline", "linux"]
 draft = false
 author = "Youssef Bouzekri"

@@ -5,6 +5,7 @@ date = 2021-11-01
 tags = ["orgmode"]
 draft = false
 author = "Youssef Bouzekri"
+cover = "/img/orgmode-syntax-basics.png"
 +++
 
 So you've been hearing a lot about emacs's killer feature, orgmode and how powerful and customizable it is, so you decided to give it a try. you download doom emacs but then get stuck because you are unsure of how to start. In this guide I'll demonstrate how to use orgmode and how to get the most out of it.
