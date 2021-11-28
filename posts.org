@@ -373,3 +373,44 @@ and then I simply add this script to my xmobarrc
 
 this module will look like this in action
 {{< figure src="/img/xmobar-music.png" alt="Headings Example" position="center" style="border-radius: 8px;" caption="Figure 2: xmobar's music module " >}}
+* How to patch suckless programs :suckless:linux:git:
+:PROPERTIES:
+:EXPORT_FILE_NAME: patching-suckless
+:EXPORT_DATE: 2021-11-28
+:EXPORT_DESCRIPTION: a personal cheatsheet for patching suckless programs
+:EXPORT_AUTHOR:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:END:
+
+Suckless is a group of developers who make programs that stick to the unix philosophy of *doing one thing and doing it well*. they have developed programs like dwm, dmenu and st, which are all minimal by design.
+
+The main feature of suckless programs is the way they are configured. instead of having to edit a config file that has a weird syntax. you go and edit the source code of the actual program itself. that means that every different configuration of suckless programs is almost like a fork of the original project.
+
+most of these programs are written in C. but you dont need to do every bit of code to configure suckless programs on your own because members of the community have made "patches", that you can download and add to your build. these patches do all sorts of things that wouldnt be easy to implement for most users. in this blogpost we will look into how to patch these programs and how to remove patches if you end up hating them.
+
+#+begin_quote
+This is sort of a personal cheatsheet for me, because I always forget how to patch suckless stuff :)
+#+end_quote
+
+first open the [[https:suckless.org][suckless website]] and find a program that you want to use and clone it. in this example I'll demonstrate using the dmenu tool which is an app launcher that can also do a bunch of other stuff
+#+begin_src shell
+git clone https://git.suckless.org/dmenu
+cd dmenu
+#+end_src
+
+next open the patches tab from the sidebar and find a patch you want to apply. for example i'll add a patch called [[https:https://tools.suckless.org/dmenu/patches/border/][border]] that adds a colored border to your dmenu prompt. to do that you will need to navigate to the patch page. find the download link and download it. I prefer to use ~wget~ but you can right click and choose save link as. make sure to download the file to the directory for your suckless program
+#+begin_src shell
+wget https://tools.suckless.org/dmenu/patches/border/dmenu-border-20201112-1a13d04.diff
+#+end_src
+next is the most important step we will use the ~patch~ command to apply the patch to the program
+
+#+begin_src shell
+patch -p1 < name-of-patch.diff
+#+end_src
+
+finally compile the code using the ~make~ command
+#+begin_src shell
+sudo make install
+#+end_src
+
+and that's about it ! make sure to leave a comment if you've found any problems and I'll be happy to help
