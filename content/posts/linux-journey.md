@@ -8,7 +8,7 @@ author = "Youssef Bouzekri"
 
 I've been using Linux exclusively for a bit over 2 years now and it is honestly the best decision I've ever made in my life. by using Linux not only did I form an understanding of how gnu/Linux works and how to use its tools. but I also discovered some of the best open-source projects I've ever seen like gimp, firefox, and MPV.
 
-In around 2017 my father was looking, I found a Linux [hacking course](https:https://www.udemy.com/course/learn-ethical-hacking-from-scratch/) on udemy that was on sale. I decided to give it a go and see what I would learn!
+In around 2017, I found a Linux [hacking course](https:https://www.udemy.com/course/learn-ethical-hacking-from-scratch/) on udemy that was on sale. I decided to give it a go and see what I would learn!
 the first chapter was on installing kali Linux on a virtual machine. back then I knew nothing about Linux and that was my first encounter with the OS. I ended up not finishing the course because running Linux in a VM on a 14 years old machine was pretty slow but I still learned the basics like navigating the system from the command line and downloading software through apt.
 
 A few years go by and I decide to give Linux another go, but this time not for hacking or pen-testing. just regular daily usage because I got sick of windows slowness and I wanted something new since I had been using Windows my whole life basically. and as with most other Linux users I decided to try out ubuntu first. it was the most well-known one and even though it is not my recommended distro right now for beginners it still works pretty well. so I did it... looked up a tutorial on how to dual boot ubuntu and Linux, downloaded the iso, and installed it.
@@ -30,3 +30,5 @@ And a few months later, I discovered [larbs](https:larbs.xyz), a bootstrapping s
 and here I am now, currently using my own build of xmonad after leaving larbs to create something on my own, the dotfiles are not completly ready yet but I hope that I will be able to make my own bootstrapping script sometime this year.
 
 {{< figure src="/img/xmonad-rice.png" alt="Headings Example" position="center" style="border-radius: 8px;" caption="Figure 3: my current system using arch and xmonad" >}}
+
+and that's about it !
