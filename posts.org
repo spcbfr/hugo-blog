@@ -448,3 +448,10 @@ and here I am now, currently using my own build of xmonad after leaving larbs to
 {{< figure src="/img/xmonad-rice.png" alt="Headings Example" position="center" style="border-radius: 8px;" caption="Figure 3: my current system using arch and xmonad" >}}
 
 and that's about it !
+* TODO How to sign git commits :git:tutorial:
+:PROPERTIES:
+:EXPORT_FILE_NAME: how-to-sign-git-commits
+:EXPORT_DATE: 2021-12-04
+:EXPORT_AUTHOR:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
+:END:
