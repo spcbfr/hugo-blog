@@ -21,7 +21,6 @@ for(let i = 0; i > 10; i++){
     console.log(i)
 }
 #+end_src
-
 #+begin_quote
 I don't like how quote blocks look, but that is fine tbh.
 #+end_quote
@@ -455,3 +454,4 @@ and that's about it !
 :EXPORT_AUTHOR:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
 :END:
+Updating vercel..

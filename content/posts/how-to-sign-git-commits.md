@@ -5,3 +5,5 @@ tags = ["git", "tutorial"]
 draft = true
 author = "Youssef Bouzekri"
 +++
+
+Updating vercel..
