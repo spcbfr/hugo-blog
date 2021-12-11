@@ -454,4 +454,4 @@ and that's about it !
 :EXPORT_AUTHOR:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :author "Youssef Bouzekri"
 :END:
-Updating vercel..
+Updating vercel.
